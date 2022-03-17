@@ -20,7 +20,26 @@ body {
 .parent input:focus {
   outline: none;
 }
-.parent .buttons{
-     display: flex;justify-content: space-between;
-     
+.parent .buttons {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.parent .buttons span {
+  background: #009688;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.parent .results {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 15px;
+  border: 2px dashed;
+  text-align: center;
+}
+.parent .results span span {
+  font-weight: bold;
+  color: #009688;
 }
